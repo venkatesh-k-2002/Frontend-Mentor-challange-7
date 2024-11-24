@@ -1,0 +1,106 @@
+@media(max-width: 1100px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(275px, 265px, 255px);
+        gap: 20px;
+    }
+    #box3{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: #FFFFFF;
+    }
+}
+
+@media(max-width : 840px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(275px, 265px, 245px,240px);
+        gap: 20px;
+    }
+    #box1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        /* background-color: #FFFFFF; */
+    }
+    #box2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        /* background-color: #FFFFFF; */
+    }
+    #box4{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        /* background-color: #FFFFFF; */
+    }
+    #box5{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        /* background-color: #FFFFFF; */
+    }
+    #box3{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        /* background-color: #FFFFFF; */
+    }
+
+}
+
+@media(max-width: 550px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 325px);
+        grid-template-rows: 440px 238px 220px 380px 440px;
+        gap: 20px;
+    }
+    #box1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #box1 #quote{
+        position: absolute;
+        top: 0;
+        right: 30px;
+        z-index: 1;
+    }
+    #box2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #box4{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #box5{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #box3{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+}
