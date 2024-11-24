@@ -1,4 +1,7 @@
 @media(max-width: 1100px){
+    body{
+        height: 130vh;
+    }
     .container{
         display: grid;
         grid-template-columns: repeat(3, 250px);
@@ -15,6 +18,9 @@
 }
 
 @media(max-width : 840px){
+    body{
+        height: 130vh;
+    }
     .container{
         display: grid;
         grid-template-columns: repeat(2, 250px);
@@ -60,6 +66,9 @@
 }
 
 @media(max-width: 550px){
+    body{
+        height: 250vh;
+    }
     .container{
         display: grid;
         grid-template-columns: repeat(1, 325px);
